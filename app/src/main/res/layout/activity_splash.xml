@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+
+    tools:context="saobracajniznakovi.com.zobs.SplashActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/sk1"
+        android:id="@+id/andrija"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/email"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:id="@+id/email"
+        android:layout_marginBottom="10dp"
+        android:layout_alignBottom="@id/andrija"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/design"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:id="@+id/design"
+        android:layout_above="@id/email"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>
